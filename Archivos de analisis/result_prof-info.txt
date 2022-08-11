@@ -1,0 +1,220 @@
+Statistical profiling result from isolate-000001BBA52F1950-22064-v8.log, (17312115 ticks, 9 unaccounted, 0 excluded).
+
+ [Shared libraries]:
+   ticks  total  nonlib   name
+  17296197   99.9%          C:\Windows\SYSTEM32\ntdll.dll
+  14398    0.1%          C:\Program Files\nodejs\node.exe
+    133    0.0%          C:\Windows\System32\KERNELBASE.dll
+     37    0.0%          C:\Windows\System32\WS2_32.dll
+     29    0.0%          C:\Windows\System32\KERNEL32.DLL
+     18    0.0%          C:\Windows\system32\mswsock.dll
+
+ [JavaScript]:
+   ticks  total  nonlib   name
+    328    0.0%   25.2%  LazyCompile: *deserializeObject C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\bson\lib\parser\deserializer.js:65:27
+     43    0.0%    3.3%  LazyCompile: *processTimers node:internal/timers:487:25
+     35    0.0%    2.7%  LazyCompile: *Long C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\bson\lib\long.js:59:18
+     30    0.0%    2.3%  LazyCompile: *serializeInto C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\bson\lib\parser\serializer.js:553:23
+     30    0.0%    2.3%  LazyCompile: *onStreamRead node:internal/stream_base_commons:167:22
+     30    0.0%    2.3%  LazyCompile: *copy node:buffer:775:16
+     29    0.0%    2.2%  LazyCompile: *Long.compare C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\bson\lib\long.js:291:39
+     27    0.0%    2.1%  LazyCompile: *resolve node:path:158:10
+     26    0.0%    2.0%  LazyCompile: *getEncodingOps node:buffer:679:24
+     25    0.0%    1.9%  LazyCompile: *parse C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongoose\node_modules\mongodb\lib\cmap\commands.js:578:10
+     23    0.0%    1.8%  LazyCompile: *Long.negate C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\bson\lib\long.js:613:38
+     22    0.0%    1.7%  LazyCompile: *readableAddChunk node:internal/streams/readable:236:26
+     21    0.0%    1.6%  LazyCompile: *emit node:events:474:44
+     20    0.0%    1.5%  LazyCompile: *processTicksAndRejections node:internal/process/task_queues:68:35
+     20    0.0%    1.5%  LazyCompile: *concat node:buffer:536:32
+     19    0.0%    1.5%  LazyCompile: *processIncomingData C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongodb\lib\cmap\message_stream.js:84:29
+     16    0.0%    1.2%  LazyCompile: *onwrite node:internal/streams/writable:425:17
+     15    0.0%    1.2%  LazyCompile: *ondata node:internal/streams/readable:752:18
+     15    0.0%    1.2%  LazyCompile: *Long.add C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\bson\lib\long.js:252:35
+     14    0.0%    1.1%  LazyCompile: *processPromiseRejections node:internal/process/promises:211:34
+     14    0.0%    1.1%  LazyCompile: *processIncomingData C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:84:29
+     14    0.0%    1.1%  LazyCompile: *nextTick node:internal/process/task_queues:104:18
+     13    0.0%    1.0%  LazyCompile: *onMessage C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:159:14
+     12    0.0%    0.9%  LazyCompile: *slice node:buffer:594:12
+     12    0.0%    0.9%  LazyCompile: *parse C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongodb\lib\cmap\commands.js:578:10
+     12    0.0%    0.9%  LazyCompile: *listOnTimeout node:internal/timers:507:25
+     12    0.0%    0.9%  LazyCompile: *<anonymous> C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongodb\lib\sdam\monitor.js:177:73
+     11    0.0%    0.8%  LazyCompile: *readInt32LE node:internal/buffer:385:21
+     11    0.0%    0.8%  LazyCompile: *onMessage C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongodb\lib\cmap\connection.js:159:14
+     10    0.0%    0.8%  LazyCompile: *serializeBinary C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\bson\lib\parser\serializer.js:462:25
+      9    0.0%    0.7%  LazyCompile: *serialize C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\bson\lib\bson.js:124:19
+      9    0.0%    0.7%  LazyCompile: *equals C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongoose\node_modules\mongodb\lib\sdam\server_description.js:118:11
+      9    0.0%    0.7%  LazyCompile: *adjustOffset node:buffer:1099:22
+      9    0.0%    0.7%  LazyCompile: *ServerDescription C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongodb\lib\sdam\server_description.js:34:16
+      8    0.0%    0.6%  LazyCompile: *serializeNumber C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\bson\lib\parser\serializer.js:44:25
+      8    0.0%    0.6%  LazyCompile: *read C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongoose\node_modules\mongodb\lib\utils.js:877:9
+      8    0.0%    0.6%  LazyCompile: *_write C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongodb\lib\cmap\message_stream.js:31:11
+      8    0.0%    0.6%  LazyCompile: *ServerDescription C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongoose\node_modules\mongodb\lib\sdam\server_description.js:34:16
+      8    0.0%    0.6%  LazyCompile: *<anonymous> C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongoose\node_modules\mongodb\lib\sdam\monitor.js:177:73
+      7    0.0%    0.5%  LazyCompile: *write node:buffer:1051:40
+      7    0.0%    0.5%  LazyCompile: *ObjectId C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\bson\lib\objectid.js:24:22
+      6    0.0%    0.5%  LazyCompile: *updateServers C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongodb\lib\sdam\topology.js:489:23
+      6    0.0%    0.5%  LazyCompile: *update C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongoose\node_modules\mongodb\lib\sdam\topology_description.js:139:11
+      6    0.0%    0.5%  LazyCompile: *compareTopologyVersion C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongoose\node_modules\mongodb\lib\sdam\server_description.js:184:32
+      6    0.0%    0.5%  LazyCompile: *alloc node:buffer:360:30
+      6    0.0%    0.5%  LazyCompile: *Readable.read node:internal/streams/readable:394:35
+      6    0.0%    0.5%  LazyCompile: *ObjectId.equals C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\bson\lib\objectid.js:179:42
+      6    0.0%    0.5%  LazyCompile: *Long.fromNumber C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\bson\lib\long.js:131:32
+      6    0.0%    0.5%  LazyCompile: *Binary C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\bson\lib\binary.js:26:20
+      5    0.0%    0.4%  RegExp: ^\$ref$|^\$id$|^\$db$
+      5    0.0%    0.4%  LazyCompile: *slice node:buffer:1116:40
+      5    0.0%    0.4%  LazyCompile: *setTimeout node:timers:140:20
+      5    0.0%    0.4%  LazyCompile: *read C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongodb\lib\utils.js:875:9
+      5    0.0%    0.4%  LazyCompile: *measureRoundTripTime C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongodb\lib\sdam\monitor.js:287:30
+      5    0.0%    0.4%  LazyCompile: *maybeReadMore_ node:internal/streams/readable:609:24
+      5    0.0%    0.4%  LazyCompile: *equals C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongodb\lib\sdam\server_description.js:118:11
+      5    0.0%    0.4%  LazyCompile: *compareTopologyVersion C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongodb\lib\sdam\server_description.js:184:32
+      5    0.0%    0.4%  LazyCompile: *TopologyDescription C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongoose\node_modules\mongodb\lib\sdam\topology_description.js:29:16
+      4    0.0%    0.3%  LazyCompile: *updateServers C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongoose\node_modules\mongodb\lib\sdam\topology.js:528:23
+      4    0.0%    0.3%  LazyCompile: *updateRsFromPrimary C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongoose\node_modules\mongodb\lib\sdam\topology_description.js:275:29
+      4    0.0%    0.3%  LazyCompile: *serverUpdateHandler C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongoose\node_modules\mongodb\lib\sdam\topology.js:360:24
+      4    0.0%    0.3%  LazyCompile: *serverUpdateHandler C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongodb\lib\sdam\topology.js:321:24
+      4    0.0%    0.3%  LazyCompile: *serializeString C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\bson\lib\parser\serializer.js:19:25
+      4    0.0%    0.3%  LazyCompile: *normalizeString node:path:66:25
+      4    0.0%    0.3%  LazyCompile: *get node:internal/bootstrap/pre_execution:319:8
+      4    0.0%    0.3%  LazyCompile: *_copy node:buffer:201:15
+      4    0.0%    0.3%  Function: ^realpathSync node:fs:2412:22
+      4    0.0%    0.3%  Function: ^processTimers node:internal/timers:487:25
+      4    0.0%    0.3%  Function: ^<anonymous> C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongodb\lib\sdam\monitor.js:317:109
+      3    0.0%    0.2%  LazyCompile: *now C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongoose\node_modules\mongodb\lib\utils.js:624:13
+      3    0.0%    0.2%  LazyCompile: *afterWriteTick node:internal/streams/writable:482:24
+      3    0.0%    0.2%  LazyCompile: *addChunk node:internal/streams/readable:304:18
+      3    0.0%    0.2%  LazyCompile: *_write C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:31:11
+      3    0.0%    0.2%  LazyCompile: *Module._nodeModulePaths node:internal/modules/cjs/loader:583:37
+      3    0.0%    0.2%  LazyCompile: *<anonymous> C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongodb\lib\cmap\connection.js:63:44
+      3    0.0%    0.2%  Function: ^measureRoundTripTime C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongodb\lib\sdam\monitor.js:287:30
+      3    0.0%    0.2%  Function: ^measureAndReschedule C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongodb\lib\sdam\monitor.js:294:34
+      3    0.0%    0.2%  Function: ^listOnTimeout node:internal/timers:507:25
+      2    0.0%    0.2%  LazyCompile: *write node:buffer:593:12
+      2    0.0%    0.2%  LazyCompile: *write C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:462:15
+      2    0.0%    0.2%  LazyCompile: *write C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongodb\lib\cmap\connection.js:462:15
+      2    0.0%    0.2%  LazyCompile: *update C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongodb\lib\sdam\topology_description.js:139:11
+      2    0.0%    0.2%  LazyCompile: *serializeLong C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\bson\lib\parser\serializer.js:302:23
+      2    0.0%    0.2%  LazyCompile: *now C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongodb\lib\utils.js:624:13
+      2    0.0%    0.2%  LazyCompile: *measureAndReschedule C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongoose\node_modules\mongodb\lib\sdam\monitor.js:294:34
+      2    0.0%    0.2%  LazyCompile: *fromString C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongoose\node_modules\mongodb\lib\utils.js:370:22
+      2    0.0%    0.2%  LazyCompile: *arrayClone node:events:883:20
+      2    0.0%    0.2%  LazyCompile: *_unrefTimer node:net:417:52
+      2    0.0%    0.2%  LazyCompile: *TopologyDescription C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongodb\lib\sdam\topology_description.js:29:16
+      2    0.0%    0.2%  LazyCompile: *Readable.push node:internal/streams/readable:227:35
+      2    0.0%    0.2%  LazyCompile: *Module._findPath node:internal/modules/cjs/loader:494:28
+      2    0.0%    0.2%  LazyCompile: *<anonymous> C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:63:55
+      2    0.0%    0.2%  LazyCompile: *<anonymous> C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:57:31
+      2    0.0%    0.2%  LazyCompile: *<anonymous> C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongodb\lib\sdam\topology.js:479:26
+      2    0.0%    0.2%  LazyCompile: *<anonymous> C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongodb\lib\operations\connect.js:53:28
+      2    0.0%    0.2%  Function: ^writeCommand C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:40:17
+      2    0.0%    0.2%  Function: ^serverUpdateHandler C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongodb\lib\sdam\topology.js:321:24
+      2    0.0%    0.2%  Function: ^deserializeObject C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\bson\lib\parser\deserializer.js:65:27
+      2    0.0%    0.2%  Function: ^calculateDurationInMs C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongodb\lib\utils.js:630:31
+      2    0.0%    0.2%  Function: ^arrayClone node:events:883:20
+      2    0.0%    0.2%  Function: ^Msg C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongodb\lib\cmap\commands.js:469:16
+      2    0.0%    0.2%  Function: ^<anonymous> C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongoose\node_modules\mongodb\lib\sdam\monitor.js:303:58
+      2    0.0%    0.2%  Function: ^<anonymous> C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\bson\lib\parser\deserializer.js:93:80
+      1    0.0%    0.1%  RegExp: (?:^|\/)\.?\.$
+      1    0.0%    0.1%  LazyCompile: *writeInt32LE node:internal/buffer:860:22
+      1    0.0%    0.1%  LazyCompile: *updateRsFromPrimary C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongodb\lib\sdam\topology_description.js:275:29
+      1    0.0%    0.1%  LazyCompile: *toByteArray C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\base64-js\index.js:53:22
+      1    0.0%    0.1%  LazyCompile: *supportsOpMsg C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongodb\lib\cmap\connection.js:444:23
+      1    0.0%    0.1%  LazyCompile: *remove node:internal/linkedlist:16:16
+      1    0.0%    0.1%  LazyCompile: *popAsyncContext node:internal/async_hooks:554:25
+      1    0.0%    0.1%  LazyCompile: *peek node:internal/priority_queue:45:7
+      1    0.0%    0.1%  LazyCompile: *measureAndReschedule C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongodb\lib\sdam\monitor.js:294:34
+      1    0.0%    0.1%  LazyCompile: *makeDocumentSegment C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongoose\node_modules\mongodb\lib\cmap\commands.js:523:24
+      1    0.0%    0.1%  LazyCompile: *isSharded C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongoose\node_modules\mongodb\lib\cmap\wire_protocol\shared.js:39:19
+      1    0.0%    0.1%  LazyCompile: *isPathSeparator node:path:52:25
+      1    0.0%    0.1%  LazyCompile: *initAsyncResource node:internal/timers:157:27
+      1    0.0%    0.1%  LazyCompile: *getPathFromURLWin32 node:internal/url:1360:29
+      1    0.0%    0.1%  LazyCompile: *get node:internal/streams/duplex:94:8
+      1    0.0%    0.1%  LazyCompile: *get node:internal/bootstrap/pre_execution:307:8
+      1    0.0%    0.1%  LazyCompile: *get C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongoose\node_modules\mongodb\lib\bson.js:26:74
+      1    0.0%    0.1%  LazyCompile: *get C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongodb\lib\bson.js:26:74
+      1    0.0%    0.1%  LazyCompile: *get C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\bson\lib\bson.js:21:74
+      1    0.0%    0.1%  LazyCompile: *createPool node:buffer:151:20
+      1    0.0%    0.1%  LazyCompile: *calculateRoundTripTime C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:280:32
+      1    0.0%    0.1%  LazyCompile: *append node:internal/linkedlist:30:16
+      1    0.0%    0.1%  LazyCompile: *append C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongodb\lib\utils.js:866:11
+      1    0.0%    0.1%  LazyCompile: *addCatch node:events:347:18
+      1    0.0%    0.1%  LazyCompile: *_advanceClusterTime C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongodb\lib\sdam\common.js:44:29
+      1    0.0%    0.1%  LazyCompile: *Socket._write node:net:806:35
+      1    0.0%    0.1%  LazyCompile: *Module._resolveLookupPaths node:internal/modules/cjs/loader:667:38
+      1    0.0%    0.1%  LazyCompile: *FastBuffer node:internal/buffer:958:14
+      1    0.0%    0.1%  LazyCompile: *BinMsg C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongoose\node_modules\mongodb\lib\cmap\commands.js:546:16
+      1    0.0%    0.1%  LazyCompile: *BinMsg C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongodb\lib\cmap\commands.js:546:16
+      1    0.0%    0.1%  LazyCompile: *<anonymous> C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongoose\node_modules\mongodb\lib\sdam\monitor.js:303:58
+      1    0.0%    0.1%  LazyCompile: *<anonymous> C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongoose\node_modules\mongodb\lib\operations\connect.js:53:28
+      1    0.0%    0.1%  LazyCompile: *<anonymous> C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:63:44
+      1    0.0%    0.1%  LazyCompile: *<anonymous> C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongodb\lib\sdam\server.js:63:55
+      1    0.0%    0.1%  LazyCompile: *<anonymous> C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongodb\lib\sdam\server.js:57:31
+      1    0.0%    0.1%  Function: ^write C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:462:15
+      1    0.0%    0.1%  Function: ^validateString node:internal/validators:118:24
+      1    0.0%    0.1%  Function: ^updateServers C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongoose\node_modules\mongodb\lib\sdam\topology.js:528:23
+      1    0.0%    0.1%  Function: ^toString C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongodb\lib\utils.js:975:13
+      1    0.0%    0.1%  Function: ^toByteArray C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\base64-js\index.js:53:22
+      1    0.0%    0.1%  Function: ^tagsStrictEqual C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongodb\lib\sdam\server_description.js:173:25
+      1    0.0%    0.1%  Function: ^serializeString C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\bson\lib\parser\serializer.js:19:25
+      1    0.0%    0.1%  Function: ^resolve node:path:158:10
+      1    0.0%    0.1%  Function: ^readSync node:fs:684:18
+      1    0.0%    0.1%  Function: ^processPromiseRejections node:internal/process/promises:211:34
+      1    0.0%    0.1%  Function: ^processIncomingData C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:84:29
+      1    0.0%    0.1%  Function: ^processIncomingData C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongodb\lib\cmap\message_stream.js:84:29
+      1    0.0%    0.1%  Function: ^parse C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongodb\lib\cmap\commands.js:578:10
+      1    0.0%    0.1%  Function: ^onMessage C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:159:14
+      1    0.0%    0.1%  Function: ^nop node:internal/streams/writable:73:13
+      1    0.0%    0.1%  Function: ^noop node:internal/util/debuglog:47:14
+      1    0.0%    0.1%  Function: ^measureRoundTripTime C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongoose\node_modules\mongodb\lib\sdam\monitor.js:287:30
+      1    0.0%    0.1%  Function: ^measureAndReschedule C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongoose\node_modules\mongodb\lib\sdam\monitor.js:294:34
+      1    0.0%    0.1%  Function: ^maybeReadMore_ node:internal/streams/readable:609:24
+      1    0.0%    0.1%  Function: ^markAsUntransferable node:internal/buffer:1048:30
+      1    0.0%    0.1%  Function: ^isStaleServerDescription C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongoose\node_modules\mongodb\lib\sdam\topology.js:644:34
+      1    0.0%    0.1%  Function: ^internalBinding node:internal/bootstrap/loaders:164:45
+      1    0.0%    0.1%  Function: ^inflate_fast C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\pako\lib\zlib\inffast.js:61:39
+      1    0.0%    0.1%  Function: ^getOptions node:internal/fs/utils:314:20
+      1    0.0%    0.1%  Function: ^get description C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongodb\lib\sdam\server.js:79:20
+      1    0.0%    0.1%  Function: ^emit node:events:474:44
+      1    0.0%    0.1%  Function: ^concat node:buffer:536:32
+      1    0.0%    0.1%  Function: ^compileFunction node:vm:308:25
+      1    0.0%    0.1%  Function: ^basename node:path:749:11
+      1    0.0%    0.1%  Function: ^arrayStrictEqual C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongodb\lib\utils.js:545:26
+      1    0.0%    0.1%  Function: ^append C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongodb\lib\utils.js:866:11
+      1    0.0%    0.1%  Function: ^afterWriteTick node:internal/streams/writable:482:24
+      1    0.0%    0.1%  Function: ^_copy node:buffer:201:15
+      1    0.0%    0.1%  Function: ^ServerDescription C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongodb\lib\sdam\server_description.js:34:16
+      1    0.0%    0.1%  Function: ^ObjectId C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\bson\lib\objectid.js:24:22
+      1    0.0%    0.1%  Function: ^Module._resolveLookupPaths node:internal/modules/cjs/loader:667:38
+      1    0.0%    0.1%  Function: ^Module._extensions..js node:internal/modules/cjs/loader:1112:37
+      1    0.0%    0.1%  Function: ^Module node:internal/modules/cjs/loader:172:16
+      1    0.0%    0.1%  Function: ^Long.isLong C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\bson\lib\long.js:236:28
+      1    0.0%    0.1%  Function: ^Long.equals C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\bson\lib\long.js:428:38
+      1    0.0%    0.1%  Function: ^<anonymous> node:internal/validators:84:3
+      1    0.0%    0.1%  Function: ^<anonymous> node:internal/validators:222:42
+      1    0.0%    0.1%  Function: ^<anonymous> node:internal/fs/utils:686:40
+      1    0.0%    0.1%  Function: ^<anonymous> C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:63:55
+      1    0.0%    0.1%  Function: ^<anonymous> C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongodb\lib\sdam\monitor.js:303:58
+      1    0.0%    0.1%  Function: ^<anonymous> C:\Users\USUARIO\Documents\CARPETAS ESCRITORIO\programacion\Curso de Backend\Proyecto-Backend\Logger\node_modules\mongodb\lib\sdam\monitor.js:177:73
+
+ [C++]:
+   ticks  total  nonlib   name
+
+ [Summary]:
+   ticks  total  nonlib   name
+   1294    0.0%   99.3%  JavaScript
+      0    0.0%    0.0%  C++
+    328    0.0%   25.2%  GC
+  17310812  100.0%          Shared libraries
+      9    0.0%          Unaccounted
+
+ [C++ entry points]:
+   ticks    cpp   total   name
+
+ [Bottom up (heavy) profile]:
+  Note: percentage shows a share of a particular caller in the total
+  amount of its parent calls.
+  Callers occupying less than 1.0% are not shown.
+
+   ticks parent  name
+  17296197   99.9%  C:\Windows\SYSTEM32\ntdll.dll
+

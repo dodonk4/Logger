@@ -1,0 +1,5 @@
+Al llamar a la ruta info, muchos de los procesos que toman lugar no son más que los archivos anidados en node_moodules.  No pude hayar algun proceso que registre
+archivos de la poca logica implementada para la ruta /info. Puede que sea porque la propia logica esté en un router, pero en ese caso tendría que estar registrado el router, pero no lo está.
+O puede que sea debido a la razón de "Callers occupying less than 1.0% are not shown", lo cual significaría que lo necesario para que info sea mostrado está correctamente optimizado para
+que carezca de interrumpciones.
+

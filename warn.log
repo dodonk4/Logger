@@ -1,0 +1,8 @@
+[2022-08-06T10:18:07.987] [WARN] archivoWarn - localhost:8083/pruebaaa
+[2022-08-06T10:18:07.989] [WARN] archivoWarn - Metodo: GET
+[2022-08-07T00:40:43.418] [WARN] archivoWarn - localhost:8080/favicon.ico
+[2022-08-07T00:40:43.419] [WARN] archivoWarn - Metodo: GET
+[2022-08-07T00:40:47.549] [WARN] archivoWarn - localhost:8080/favicon.ico
+[2022-08-07T00:40:47.549] [WARN] archivoWarn - Metodo: GET
+[2022-08-07T01:07:49.395] [WARN] archivoWarn - localhost:8080/favicon.ico
+[2022-08-07T01:07:49.398] [WARN] archivoWarn - Metodo: GET
